@@ -1,0 +1,484 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"transl",
+				"translateY()"
+			],
+			[
+				"-",
+				"--color1"
+			],
+			[
+				"--",
+				"--color1"
+			],
+			[
+				"tra",
+				"text-transform"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"ch",
+				"check"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"dire",
+				"flex-direction"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"ovew",
+				"overflow"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"top",
+				"margin-top"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"fel",
+				"flex-direction"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"fot",
+				"font-weight"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"d",
+				"div"
+			],
+			[
+				"s",
+				"stylesheet"
+			],
+			[
+				"al",
+				"alt"
+			],
+			[
+				"align-",
+				"align-items"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
+				"box-s",
+				"box-sizing"
+			],
+			[
+				"algin",
+				"align-items"
+			],
+			[
+				"space",
+				"space-around"
+			],
+			[
+				"sc",
+				"scroll-behavior"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"bor",
+				"border-collapse"
+			],
+			[
+				"th",
+				"th"
+			],
+			[
+				"r",
+				"rgb"
+			],
+			[
+				"rgb",
+				"rgb()"
+			],
+			[
+				"st",
+				"sticky"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"f",
+				"flex"
+			],
+			[
+				"p",
+				"padding"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <link rel=\"shortcut icon\" href=\"logo.png\">\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Hearty Bites Website</title>\n    <link rel=\"stylesheet\" href=\"style.css\" />\n    <link\n      rel=\"stylesheet\"\n      media=\"screen and (max-width:1036px)\"\n      href=\"phone.css\"\n    />\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css\" integrity=\"sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\n    <link\n      href=\"https://fonts.googleapis.com/css2?family=Bree+Serif&family=Libre+Baskerville:wght@400;700&family=PT+Serif:wght@700&family=Playfair+Display&display=swap\"\n      rel=\"stylesheet\"\n    />\n  </head>\n  <body>\n    <nav id=\"navigation\">\n      <div id=\"logo\"> \n       <ul>\n          <li class=\"log\">Hearty Bites</li>\n       \n        <img\n          src=\"logo.png\"\n          alt=\"logo\"\n          width=\"150px\"\n          height=\"70px\"\n        />\n      </ul>\n      </div>\n      \n      <ul>\n        <li class=\"items\" class=\"active\"><a href=\"#home\">Home</a></li>\n        <li class=\"items\"><a href=\"#menuhead\">Menu</a></li>\n        <li class=\"items\"><a href=\"#clireviews\">Reviews</a></li>\n        <li class=\"items\"><a href=\"#contact\">Contact us</a></li>\n      </ul>\n    </nav>\n\n    <section id=\"home\">\n      <h1 class=\"head\">Satisfy your Cravings<br>The Healthy Way</h1>\n      <p>\n        Eating healthy foods isn't just about filling your stomach,<br> it's about nourishing your body from the inside out.<br>Have a bite and step towards a healthier and happier you.</p>\n      <button class=\"orderbtn\" class=\"active\">Order Now</button>\n\n    <main>\n      <div class=\"container\">\n        <video autoplay muted loop autoplay class=\"videobg\">\n          <source src=\"video.mp4\" type=\"video/mp4\">\n        </video>\n      </div>\n    </main>\n    \n    </section>\n\n    <section id=\"menuhead\">\n      <h1 class=\"contactus\">--Menu--</h1>\n      <div id=\"offers\">\n        <div class=\"box\">\n          <img\n            src=\"greek salad.jpg\"\n            alt=\"Pictures\"\n            height=\"150px\"\n            width=\"250px\"\n          />\n          <h2 class=\"greekitem\">Greek Salad</h2>\n          <p class=\"centre\">\n            <button class=\"orderbtn\" class=\"active\">Order Now</button>\n        </div>\n        <div class=\"box\">\n          <img\n            src=\"choco cake.jpg\"\n            alt=\"fix picture\"\n            height=\"1000px\"\n            width=\"350px\"\n          />\n          <h2 class=\"item\">Choco Cake</h2>\n          <button class=\"orderbtn\" class=\"active\">Order Now</button>\n        </div>\n        <div class=\"box\">\n          <img\n            src=\"lasagna.jpg\"\n            alt=\"fix picture\"\n            height=\"150px\"\n            width=\"250px\"\n          />\n          <h2 class=\"item\">Lasagna</h2>\n          <button class=\"orderbtn\" class=\"active\">Order Now</button>\n        </div>\n        \n        <div class=\"box\">\n          <img\n            src=\"coffee.jpg\"\n            alt=\"fix picture\"\n            height=\"150px\"\n            width=\"250px\"\n          />\n          <h2 class=\"item\">Coffee</h2>\n          <button class=\"orderbtn\" class=\"active\">Order Now</button>\n        </div>\n\n        <div class=\"box\">\n          <img\n            src=\"fruit juice.jpg\"\n            alt=\"fix picture\"\n            height=\"150px\"\n            width=\"250px\"\n          />\n          <h2 class=\"item\">Fruit Juice</h2>\n          <button class=\"orderbtn\" class=\"active\">Order Now</button>\n        </div>\n\n        <div class=\"box\">\n          <img\n            src=\"special.jpg\"\n            alt=\"fix picture\"\n            height=\"150px\"\n            width=\"250px\"\n          />\n          <h2 class=\"item\">Special Smoothie</h2>\n          <button class=\"orderbtn\" class=\"active\">Order Now</button>\n        </div>\n      </div>\n    </section>\n\n\n    <section id=\"clireviews\">\n      <h1 class=\"contactus\">What People Say About Us</h1>\n      <div id=\"clients\">\n        <div class=\"box\">\n        <div class=\"cli1\">\n          <img\n            src=\"cli1.png\"\n            alt=\"picture\"\n\n          />\n          <p class=\"centre\">\n            I'm so glad I did! From the moment I walked in, I was greeted by a warm and inviting atmosphere that immediately put me at ease. The staff was incredibly friendly and knowledgeable, helping me navigate the menu and offering recommendations based on my dietary preferences.\n          </p>\n        </div>\n      </div>\n        <div class=\"box\">\n        <div class=\"cli1\">\n          <img \n          src=\"cli2.png\" alt=\"picture\" height=\"150px\" width=\"150px\" />\n           \n          <p class=\"centre\">\n            Every dish I tried was a culinary delight. The ingredients were obviously fresh and of the highest quality, and the flavors were simply exquisite. The veggies were perfectly cooked and seasoned, and the portion size was just right to leave me feeling satisfied but not stuffed. A must visit place.\n          </p></div>\n        </div>\n        \n        <div class=\"box\">\n          <div class=\"cli2\">\n          <img src=\"cli3.png\" alt=\"picture\" \n          height=\"150px\" \n          width=\"150px\" />\n        \n          <p class=\"centre\">\n            This cozy place has left the best impressions! The food was delicious, the service was attentive, and the atmosphere was relaxing. I highly recommend it to anyone looking for a quality foods. I especially loved the creative twists on classic dishes. Love this place and will continue to visit.\n          </p></div>\n        </div>\n        \n        <div class=\"box\">\n          <div class=\"cli2  \">\n          <img\n            src=\"cli4.png\" alt=\"picture\"\n            height=\"150px\"\n            width=\"150px\"\n          />\n        \n          <p class=\"centre\">\n           Do yourself a favor and visit this lovely restaurant. The menu is diverse, the portions are generous, and the staffs are friendly. The special smoothie was especially amazing, I can't wait to try it again.\n          </p></div>\n        </div>\n      </div>\n    </section>\n    <section id=\"contact\">\n      <h1 class=\"contactus\">Contact Us</h1>\n      <div id=\"contact-box\">\n        <form action=\"\">\n          <div class=\"form-group\">\n            <label for=\"name\">Name:</label>\n            <input\n              type=\"text\"\n              name=\"name\"\n              id=\"name\"\n              placeholder=\"Enter your name\"\n            />\n          </div>\n          <div class=\"form-group\">\n            <label for=\"email\">Email:</label>\n            <input\n              type=\"text\"\n              name=\"email\"\n              id=\"name\"\n              placeholder=\"Enter your email\"\n            />\n          </div>\n          <div class=\"form-group\">\n            <label for=\"phine\">Phone Number:</label>\n            <input\n              type=\"text\"\n              name=\"phone\"\n              id=\"name\"\n              placeholder=\"Enter your number\"\n            />\n          </div>\n          <div class=\"form-group\">\n            <label for=\"message\">Message:</label>\n            <textarea\n              name=\"message\"\n              id=\"message\"\n              cols=\"30\"\n              rows=\"10\"\n            ></textarea>\n            <button class=\"submitbtn\">Submit Now</button>\n          </div>\n        </form>\n      </div>\n      \n    </section>\n\n    <footer>\n      <div class=\"footera\">\n        <div class=\"footericon\">\n          <div class=\"iconsf\">\n            <a href=\"\"><i class=\"fa-brands fa-facebook\"></i></a>\n            <a href=\"\"><i class=\"fa-brands fa-instagram\"></i></a>\n            <a href=\"\"><i class=\"fa-brands fa-youtube\"></i></a>\n          </div>\n          <div>\n            <div class=\"footerna\">\n              <ul>\n                <li><a href=\"\">Contact: 09097771111</a></li>\n                <li><a href=\"\">Email: heartybites@gmail.com</a></li> \n              </ul>\n            </div>\n          </div>\n        </div>\n      </div>\n    </footer>\n  </body>\n</html>",
+			"file": "hbw.html",
+			"file_size": 8481,
+			"file_write_time": 133625445476775341,
+			"settings":
+			{
+				"buffer_size": 8233,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AwAAAFcEAAAAAAAAWAQAAAAAAAAAAAAAWAQAAAAAAABcBAAAAAAAAAAAAABcBAAAAAAAAF4EAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVwQAAAAAAABXBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					4,
+					"left_delete",
+					null,
+					"BAAAAFwEAAAAAAAAXAQAAAAAAAACAAAAICBaBAAAAAAAAFoEAAAAAAAAAgAAACAgWAQAAAAAAABYBAAAAAAAAAIAAAAgIFcEAAAAAAAAVwQAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAXgQAAAAAAABeBAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/raqui/Desktop/HBW/style.css",
+		"/C/Users/raqui/Desktop/HBW/hbw.html",
+		"/C/Users/raqui/Desktop/bites/hbw.html",
+		"/C/Users/raqui/Desktop/bites/style.css",
+		"/C/Users/raqui/Desktop/hearty bites web/hbites.html",
+		"/C/Users/raqui/Desktop/hearty bites web/style.css",
+		"/C/Users/raqui/Desktop/HBW - trial/style.css",
+		"/C/Users/raqui/Desktop/HBW - trial/hbw.html",
+		"/C/Users/raqui/Desktop/new web/style.css",
+		"/C/Users/raqui/Desktop/new web/index.html",
+		"/C/Users/raqui/Desktop/hearty bites web/hearty.html",
+		"/C/Users/raqui/Desktop/russel CWD/responsive animated login/login.html",
+		"/C/Users/raqui/Desktop/russel CWD/responsive animated login/style.css",
+		"/C/Users/raqui/Desktop/russel CWD/starbucks/style.css",
+		"/C/Users/raqui/Desktop/russel CWD/starbucks/starbucks.html",
+		"/C/Users/raqui/Desktop/html trial/style.css",
+		"/C/Users/raqui/Desktop/html trial/htmltrial.html",
+		"/C/Users/raqui/Desktop/hbw.html",
+		"/C/Users/raqui/Desktop/responsive animated login/login.html",
+		"/C/Users/raqui/Desktop/hearty bites web/heartybites.html",
+		"/C/Users/raqui/Desktop/starbucks/style.css",
+		"/C/Users/raqui/Desktop/hearty BItes/style.css",
+		"/C/Users/raqui/Desktop/hearty BItes/hb.html",
+		"/C/Users/raqui/Desktop/starbucks/starbucks.html",
+		"/C/Users/raqui/Desktop/hearty BItes/hearty web.html",
+		"/C/Users/raqui/Desktop/new web/hearty web.html",
+		"/C/Users/raqui/Desktop/dashboard/style.css",
+		"/C/Users/raqui/Desktop/dashboard/index.html",
+		"/C/Users/raqui/Desktop/new web/myweb.html",
+		"/C/Users/raqui/Desktop/responsive animated login/style.css",
+		"/C/Users/raqui/Desktop/myweb",
+		"/C/Users/raqui/Desktop/starbucks/Attribution.txt",
+		"/C/Users/raqui/Desktop/dashboard/dashboard.html",
+		"/C/Users/raqui/Desktop/dashboard.html",
+		"/C/Users/raqui/Desktop/New folder/starbacks.html",
+		"/C/Users/raqui/Desktop/New folder/style.css",
+		"/C/Users/raqui/Desktop/style.css",
+		"/C/Users/raqui/Desktop/starbacks.html"
+	],
+	"find":
+	{
+		"height": 44.8
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "hbw.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1111,
+								1111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 528.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.6
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "hbw.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 115.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
